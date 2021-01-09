@@ -1,6 +1,6 @@
 {
     "name": "react-slippi-visualiser",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "source": "src/app/App.js",
@@ -16,6 +16,7 @@
         "postcss": "^8.2.2",
         "rangeslider.js": "^2.3.2",
         "react-scripts": "4.0.1",
+        "uuid": "^8.3.2",
         "web-vitals": "^0.2.4"
     },
     "devDependencies": {
