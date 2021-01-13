@@ -1,9 +1,13 @@
 {
     "name": "react-slippi-visualiser",
-    "version": "0.1.22",
+    "version": "0.1.24",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "source": "src/app/App.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fcornaire/react-slippi-visualiser.git"
+    },
     "peerDependencies": {
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
@@ -16,6 +20,7 @@
         "postcss": "^8.2.2",
         "rangeslider.js": "^2.3.2",
         "react-scripts": "4.0.1",
+        "rollup-plugin-terser": "^7.0.2",
         "uuid": "^8.3.2",
         "web-vitals": "^0.2.4"
     },
