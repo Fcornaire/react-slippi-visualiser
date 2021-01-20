@@ -1,9 +1,12 @@
 {
     "name": "react-slippi-visualiser",
-    "version": "0.1.24",
+    "version": "0.1.25",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "source": "src/app/App.js",
+    "exports": {
+        "animations": "./dist/animations.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Fcornaire/react-slippi-visualiser.git"
@@ -38,6 +41,7 @@
         "rollup": "^2.35.1",
         "rollup-plugin-babel": "^4.4.0",
         "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-copy": "^3.3.0",
         "rollup-plugin-delete": "^2.0.0",
         "rollup-plugin-import-css": "^1.1.4",
         "rollup-plugin-node-resolve": "^5.2.0",
