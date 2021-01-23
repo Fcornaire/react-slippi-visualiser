@@ -1,9 +1,12 @@
 {
     "name": "react-slippi-visualiser",
-    "version": "0.1.29",
+    "version": "0.1.30",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "source": "src/app/App.js",
+    "files": [
+        "dist"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Fcornaire/react-slippi-visualiser.git"
