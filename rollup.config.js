@@ -7,6 +7,7 @@ import babel from "@rollup/plugin-babel";
 import external from "rollup-plugin-peer-deps-external";
 import del from "rollup-plugin-delete";
 import { terser } from "rollup-plugin-terser";
+import copy from "rollup-plugin-copy";
 
 import pkg from "./package.json";
 
@@ -51,6 +52,9 @@ export default {
         }),
         postcss(),
         terser(),
+        copy({
+            targets: [{ src: "public/animations.js", dest: "dist" }]
+        }),
         del({ targets: ["dist/*"] })
     ]
 };
